@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="com.jimmy.hellokotlin"
+<manifest package="com.jimmy.revive"
           xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".MainActivity">
+        <activity android:name="com.jimmy.revive.sample.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -18,9 +18,13 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".lifecycle.TestLifecycleActivity"/>
+        <activity android:name="com.jimmy.revive.sample.lifecycle.TestLifecycleActivity"/>
 
-        <activity android:name=".lifecycle.TestResultActivity"/>
+        <activity android:name="com.jimmy.revive.sample.lifecycle.TestResultActivity"/>
+
+        <activity android:name="com.jimmy.revive.sample.animate.transition.TestAnimateActivity"/>
+
+        <activity android:name="com.jimmy.revive.sample.canvas.CanvasActivity"/>
 
     </application>
 

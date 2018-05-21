@@ -7,7 +7,7 @@
     android:gravity="center_horizontal"
     android:background="#f7f7f7"
     android:orientation="vertical"
-    tools:context="com.jimmy.hellokotlin.MainActivity">
+    tools:context="com.jimmy.revive.sample.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -19,7 +19,7 @@
         android:textColor="#ffff16e1"
         android:textSize="30sp"/>
 
-    <com.jimmy.hellokotlin.common.widget.MultiLineFlowLayout
+    <com.jimmy.revive.sample.common.widget.MultiLineFlowLayout
         android:id="@+id/tagsView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
