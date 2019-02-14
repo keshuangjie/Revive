@@ -9,6 +9,7 @@ import com.jimmy.revive.R
 import com.jimmy.revive.lib.base.ReviveActivity
 import com.jimmy.revive.sample.animate.transition.TestAnimateActivity
 import com.jimmy.revive.sample.canvas.CanvasActivity
+import com.jimmy.revive.sample.chart.ChartActivity
 import com.jimmy.revive.sample.lifecycle.TestLifecycleActivity
 import kotlinx.android.synthetic.main.test_main_activity.*
 
@@ -33,6 +34,10 @@ class MainActivity : ReviveActivity() {
         }))
         list.add(ItemData("绘图", View.OnClickListener {
             val intent = Intent(this, CanvasActivity::class.java)
+            startActivity(intent)
+        }))
+        list.add(ItemData("表格", View.OnClickListener {
+            val intent = Intent(this, ChartActivity::class.java)
             startActivity(intent)
         }))
         return list

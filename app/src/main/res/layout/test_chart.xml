@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="37dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <com.jimmy.revive.sample.chart.ChartDataView
+            android:id="@+id/chartDataView"
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"/>
+
+        <com.jimmy.revive.sample.chart.ChartControlView
+            android:id="@+id/charControlView"
+            android:layout_width="match_parent"
+            android:layout_height="130dp" />
+
+    </FrameLayout>
+
+</FrameLayout>

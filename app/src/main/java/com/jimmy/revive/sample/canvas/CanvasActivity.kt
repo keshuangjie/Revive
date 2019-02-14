@@ -14,10 +14,10 @@ class CanvasActivity : ReviveActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-//        setContentView(CustomPaintView(this))
-        setContentView(R.layout.canvas_activity)
-        var bitmap = BitmapFactory.decodeResource(resources, R.drawable.revive__test_canvas_cover)
-        imageView.setImageBitmap(BitmapUtil.getRoundedCornerBitmap(bitmap, 48))
+        setContentView(CustomPaintView(this))
+//        setContentView(R.layout.canvas_activity)
+//        var bitmap = BitmapFactory.decodeResource(resources, R.drawable.revive__test_canvas_cover)
+//        imageView.setImageBitmap(BitmapUtil.getRoundedCornerBitmap(bitmap, 48))
     }
 
 }

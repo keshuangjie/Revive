@@ -26,6 +26,8 @@
 
         <activity android:name="com.jimmy.revive.sample.canvas.CanvasActivity"/>
 
+        <activity android:name="com.jimmy.revive.sample.chart.ChartActivity"/>
+
     </application>
 
 </manifest>

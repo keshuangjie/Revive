@@ -45,6 +45,11 @@ open class TestLifecycleBaseActivity : ReviveActivity() {
         log("onDestroy")
     }
 
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        log("onActivityResult")
+    }
+
     fun log(event: String) {
         w(getClassName() + ": $event $isFinishing")
     }

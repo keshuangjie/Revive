@@ -11,7 +11,7 @@ import kotlinx.android.synthetic.main.test_lifecycle_activity.*
 /**
  * Created by Jimmy on 2017/12/21.
  */
-class TestLifecycleActivity : ReviveActivity() {
+class TestLifecycleActivity : TestLifecycleBaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
