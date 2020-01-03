@@ -1,7 +1,7 @@
 package com.jimmy.revive.sample.nestedlistview;
 
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
+import androidx.core.app.FragmentActivity;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 

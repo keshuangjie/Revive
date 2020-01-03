@@ -2,8 +2,8 @@ package com.jimmy.revive.sample.nestedlistview
 
 import android.content.Context
 import android.os.Build
-import android.support.v4.view.NestedScrollingChild2
-import android.support.v4.view.NestedScrollingChildHelper
+import androidx.core.view.NestedScrollingChild2
+import androidx.core.view.NestedScrollingChildHelper
 import android.util.AttributeSet
 import android.widget.ListView
 

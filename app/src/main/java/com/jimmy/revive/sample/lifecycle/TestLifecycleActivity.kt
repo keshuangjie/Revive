@@ -1,8 +1,8 @@
 package com.jimmy.revive.sample.lifecycle
 
 import android.os.Bundle
-import android.support.v4.app.Fragment
-import android.support.v4.app.FragmentPagerAdapter
+import androidx.core.app.Fragment
+import androidx.core.app.FragmentPagerAdapter
 import android.view.View
 import com.jimmy.revive.R
 import com.jimmy.revive.lib.base.ReviveActivity
