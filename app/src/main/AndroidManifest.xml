@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="com.jimmy.revive"
-          xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jimmy.revive">
 
     <application
+        android:name=".sample.ReviveTestApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -12,22 +13,34 @@
 
         <activity android:name="com.jimmy.revive.sample.MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <activity android:name="com.jimmy.revive.sample.lifecycle.TestLifecycleActivity"/>
+        <activity android:name="com.jimmy.revive.sample.lifecycle.TestLifecycleActivity" />
 
-        <activity android:name="com.jimmy.revive.sample.lifecycle.TestResultActivity"/>
+        <activity android:name="com.jimmy.revive.sample.lifecycle.TestResultActivity" />
 
-        <activity android:name="com.jimmy.revive.sample.animate.transition.TestAnimateActivity"/>
+        <activity android:name="com.jimmy.revive.sample.animate.transition.TestAnimateActivity" />
 
-        <activity android:name="com.jimmy.revive.sample.canvas.CanvasActivity"/>
+        <activity android:name="com.jimmy.revive.sample.canvas.CanvasActivity" />
 
-        <activity android:name="com.jimmy.revive.sample.chart.ChartActivity"/>
+        <activity android:name="com.jimmy.revive.sample.chart.ChartActivity" />
+        <activity android:name=".sample.TestActivity" />
+
+        <activity android:name=".sample.nestedlistview.GoNetScrollViewPagerActivity"/>
+
+        <activity android:name=".sample.bitmap.BitmapSizeActivity"/>
+
+        <receiver android:name="com.jimmy.revive.sample.notify.PracticeCountNotifyReceiver"/>
+
+        <service android:name=".sample.notify.NotifyJobIntentService"
+                 android:permission="android.permission.BIND_JOB_SERVICE"/>
 
     </application>
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
 </manifest>

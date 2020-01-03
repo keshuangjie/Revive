@@ -7,10 +7,13 @@ import android.app.Application
  *
  * Created by Jimmy on 2018/1/9.
  */
-class ReviveApplication : Application() {
+open class ReviveApplication : Application() {
 
     override fun onCreate() {
         super.onCreate()
+        ReviveContext.init(this)
     }
+
+
 
 }
